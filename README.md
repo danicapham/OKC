@@ -1,2 +1,3 @@
-# OKC
-XGBoost prediction model used to predict make-probability of basketball shots with data given by the OKC Thunder Data Science team for a Round 1 interview
+The project's task was to create a ML model that accurately predicts the make-probability of a given set of basketball shots with features like distance to the basket, the shooter's speed, the distance of the closest defender, the number of contesters, and more. Given was a training dataset with a list of hundreds of shots, the shots' features, and the binary outcome of if the shot made the basket or not. I was tasked to output the probabilities of whether a shot made it into the basket or not with all the shots on the test dataset. To solve the problem, I created an XGBoost model that inputted 15 variables and achieved a prediction accuracy of 60%.
+
+The project and dataset were given to me by the OKC Thunder Data Science team for a Round 1 internship interview. Because the project was for an internal hiring process, the training data (training.csv.gz) and testing data (testing.csv.gz) are confidential and cannot be displayed.
